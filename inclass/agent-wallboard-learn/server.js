@@ -8,28 +8,28 @@ const cors = require('cors');
 
 const agent = {
     code: "A001",    
-    name: "Hod",        
-    status: "Available",      
+    name: "SeanDee",        
+    status: "Active",      
     loginTime: new Date()
 };
 
 const agents = [
    {
     code: "A001",      
-    name: "Mairu",        
+    name: "Jane Doe",        
     status: "Available",      
     loginTime: new Date()
    },
    {
     code: "A002",       
-    name: "Steak",         
-    status: "Wrap Up",       
+    name: "John Smith",         
+    status: "Active",       
     loginTime: new Date()
    },
    {
     code: "A003",        
-    name: "Slept",         
-    status: "Active",       
+    name: "Jee Jee",         
+    status: "Wrap Up",       
     loginTime: new Date()
    },
 ];
